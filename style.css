@@ -1,0 +1,32 @@
+body{
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    background-color: wheat;
+}
+.mealPic{
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+}
+#foodContainer{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+}
+#displayMealIngredient{
+    background-color: wheat;
+    border-radius: 15px;
+    display: none;
+    padding-left: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#displayMealIngredient img{
+    height: 250px;
+    width: 350px;
+    box-shadow: 10px 10px 50px tomato;
+}
